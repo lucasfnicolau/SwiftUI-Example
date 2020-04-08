@@ -8,11 +8,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainMenu: View {
     var body: some View {
         VStack {
             CustomText("create new project", size: 32, color: Color.infoText)
-            CustomButton("+", size: 80)
+            CustomButton("+", action: {
+            }, size: 80)
         }
     }
 
@@ -23,6 +24,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().background(Color.background)
+        MainMenu().background(Color.background)
     }
 }

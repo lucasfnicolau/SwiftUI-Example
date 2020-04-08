@@ -20,7 +20,7 @@ struct CustomText: View {
     }
 
     var body: some View {
-        Text(text).foregroundColor(color).font(Font.custom("Avenir-Next", size: size))
+        Text(text).foregroundColor(color).font(Font.custom("Avenir Next", size: size)).fontWeight(.light)
     }
 }
 

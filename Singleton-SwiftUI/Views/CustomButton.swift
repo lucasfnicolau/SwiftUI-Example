@@ -23,7 +23,7 @@ struct CustomButton: View {
 
     var body: some View {
         Button(action: action) {
-            Text(text).foregroundColor(color).font(Font.custom("Avenir-Next", size: size))
+            Text(text).foregroundColor(color).font(Font.custom("Avenir Next", size: size)).fontWeight(.light)
         }
     }
 }
