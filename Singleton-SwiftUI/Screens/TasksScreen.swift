@@ -23,6 +23,11 @@ struct TasksScreen: View {
             List(tasks, id: \.name) { task in
                 TaskRow(task: task)
             }
+            .navigationBarItems(leading:
+                CustomButton("…", size: 30),
+                                trailing:
+                CustomButton("+", size: 30)
+            )
             .navigationBarTitle("Regime Especial")
         }
     }
