@@ -10,15 +10,17 @@ import SwiftUI
 
 struct CustomText: View {
     var text: String
+    var size: CGFloat
     var color: Color
 
-    init(_ text: String, color: Color = Color.text) {
+    init(_ text: String, size: CGFloat = 18, color: Color = Color.text) {
         self.text = text
+        self.size = size
         self.color = color
     }
 
     var body: some View {
-        Text(text).foregroundColor(color)
+        Text(text).foregroundColor(color).font(Font.custom("Avenir-Next", size: size))
     }
 }
 

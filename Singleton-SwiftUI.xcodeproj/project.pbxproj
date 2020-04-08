@@ -15,6 +15,7 @@
 		B669D8CD243E5E720020115D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B669D8CB243E5E720020115D /* LaunchScreen.storyboard */; };
 		B669D8D6243E648D0020115D /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669D8D5243E648D0020115D /* CustomText.swift */; };
 		B669D8D9243E65B40020115D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669D8D8243E65B40020115D /* Colors.swift */; };
+		B669D8DB243E6C700020115D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669D8DA243E6C700020115D /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B669D8CE243E5E720020115D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B669D8D5243E648D0020115D /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
 		B669D8D8243E65B40020115D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B669D8DA243E6C700020115D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				B669D8D5243E648D0020115D /* CustomText.swift */,
+				B669D8DA243E6C700020115D /* CustomButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			files = (
 				B669D8C1243E5E6D0020115D /* AppDelegate.swift in Sources */,
 				B669D8D9243E65B40020115D /* Colors.swift in Sources */,
+				B669D8DB243E6C700020115D /* CustomButton.swift in Sources */,
 				B669D8C3243E5E6D0020115D /* SceneDelegate.swift in Sources */,
 				B669D8C5243E5E6D0020115D /* ContentView.swift in Sources */,
 				B669D8D6243E648D0020115D /* CustomText.swift in Sources */,

@@ -10,12 +10,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .center, spacing: 20) {
-            Text("create new project")
-            Button(action: createNewProject) {
-                Text("+").font(Font.custom("Avenir-Next", size: 40))
-            }
-            
+        VStack {
+            CustomText("create new project", size: 32, color: Color.infoText)
+            CustomButton("+", size: 80)
         }
     }
 
@@ -26,6 +23,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().background(Color.background)
     }
 }
