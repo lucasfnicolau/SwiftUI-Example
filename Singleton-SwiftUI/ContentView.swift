@@ -10,7 +10,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack(alignment: .center, spacing: 20) {
+            Text("create new project")
+            Button(action: createNewProject) {
+                Text("+").font(Font.custom("Avenir-Next", size: 40))
+            }
+            
+        }
+    }
+
+    func createNewProject() {
+
     }
 }
 
